@@ -1,16 +1,8 @@
-# Pedal-Pulse
-<img class=mobile-image src="https://files.readme.io/ee53dbc-demo.png" />
-<img class=mobile-image src="https://files.readme.io/81b457e-html.png" />
+# Project Overview
 
-<style>
-  .img {
-    display: inline-block;
-  }
-  img.mobile-image {
-	width: 49%;
-    display: inline-block;
-  }
-</style>
+**Pedal Pulse** is a **Streamlit** based web-app, accessible at [Pedal Pulse Web App](https://pedal-pulse.streamlit.app/), that aims to predict the bike rental demand through **predictive analytics** and **statistical modeling**.
+
+## Workflow
 
 ```
 ├── Business_Problem_Formulation
@@ -23,7 +15,9 @@
 │   ├── missing_values
 │   └── skewness
 │   ├── feature_creation
-│   └── type_conversion
+│   │   ├── Creation of new features (e.g., Day, Month, Year, Weekday) from the Date column.
+│   │   └── Creation of Temperature Bin feature to aid in visualizing bike demand trends.
+├── EDA_And_Data_Visualization
 ├── EDA_And_Data_Visualization
 │   ├── univariate_analysis
 │   └── bivariate_multivariate_analysis
@@ -56,3 +50,21 @@
 │   └── streamlit_web_app
 
 ``` 
+
+## Exploratory Data Analysis (EDA)
+
+Through extensive **exploratory data analysis (EDA)**, this project provides valuable insights into demand patterns that will aid in formulating effective strategies for **fleet management**, **resource allocation**, and enhancing **customer satisfaction**.
+
+<p float="left">
+  <img src="https://github.com/blazeAssault26/Pedal-Pulse/assets/129224378/db1a3a51-7189-485c-9af0-0aad63726798" width="49%" />
+  <img src="https://github.com/blazeAssault26/Pedal-Pulse/assets/129224378/9a953b70-ab7d-48f7-8aeb-ab8a6483f5b6" width="49%" />
+</p>
+
+## Model Implementation and Results
+
+The project utilizes various **regression techniques** to model the bike demand data. Hyperparameters for **XGBoost** and **Random Forest** were meticulously tuned using **RandomSearchCV**, followed by **cross-validation** to rigorously evaluate their performance. This process optimized the evaluation metric, achieving an **R2 score** of **0.944** on the test data.
+
+<p float="left">
+  <img src="https://github.com/blazeAssault26/Pedal-Pulse/assets/129224378/55e079f4-4e39-4f8d-a097-6187ef7df938" width="49%" />
+  <img src="https://github.com/blazeAssault26/Pedal-Pulse/assets/129224378/fe9602fa-be25-403a-9c81-7782edd1a3e5" width="49%" />
+</p>
