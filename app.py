@@ -2,7 +2,6 @@ import streamlit as st
 from predictor import Inference
 import pandas as pd
 
-# Load model and scaler
 def load_model():
     model_path = "xgboost_reg_r2_0_944_v1.pkl"  
     sc_path = "sc.pkl"    
@@ -30,16 +29,16 @@ def show_predict_page():
 
     ok = st.button("Calculate Rental Count", key="ok_button")
     if ok:
-        # Convert the date format to dd/mm/yyyy
+       
         date_str = date_input.strftime("%d/%m/%Y")
         
-        # Prepare the dataframe for prediction
+    
         df = inference.prepare_dataframe(date_str, hour_input, temperature_input, humidity_input, wind_speed_input, visibility_input, solar_radiation_input, rainfall_input, snowfall_input, seasons_input, holiday_input, functioning_day_input)
         
-        # Make prediction
+       
         prediction = inference.predict(df)
         
-        # Display the prediction
+        
         st.subheader(f"The estimated rented bike count is {int(prediction[0])}")
 
 show_predict_page()
