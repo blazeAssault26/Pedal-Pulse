@@ -1,43 +1,47 @@
 # Pedal-Pulse
 
+
+```
 ├── README.md
 ├── Business_Problem_Formulation
 │   └── business_problem.md
 ├── Dataset
 │   └── BikeData.csv
 ├── Know_Your_Data
-│   └── variable_exploration.md
+│   └── variable_exploration
 ├── Data_Wrangling
-│   ├── duplicated_values.py
-│   ├── missing_values.py
-│   └── skewness.py
+│   ├── duplicated_values
+│   ├── missing_values
+│   └── skewness
 ├── EDA_And_Data_Visualization
-│   ├── univariate_analysis.py
-│   └── bivariate_multivariate_analysis.py
+│   ├── univariate_analysis
+│   └── bivariate_multivariate_analysis
 ├── Feature_Engineering
-│   ├── vif_analysis.py
-│   ├── removing_multicollinearity.py
-│   └── encoding_categorical_variable.py
+│   ├── vif_analysis
+│   ├── removing_multicollinearity
+│   └── encoding_categorical_variable
 ├── Model_Building
-│   ├── train_test_split.py
-│   ├── scaling_data.py
-│   └── model_training.py
+│   ├── train_test_split
+│   ├── scaling_data
+│   └── model_training
 ├── Model_Implementation
-│   ├── linear_regression.py
-│   ├── lasso.py
-│   ├── ridge.py
-│   ├── knn.py
-│   ├── svm.py
-│   ├── decision_tree.py
-│   ├── random_forest.py
-│   ├── xgboost.py
-│   └── model_evaluation.py
+│   ├── linear_regression
+│   ├── lasso
+│   ├── ridge
+│   ├── knn
+│   ├── svm
+│   ├── decision_tree
+│   ├── random_forest
+│   ├── xgboost
+│   └── model_evaluation
 ├── Hyperparameter_Tuning
-│   ├── random_forest_tuning.py
-│   └── xgboost_tuning.py
+│   ├── random_forest_tuning
+│   └── xgboost_tuning
 ├── Building_Web_App
 │   ├── predictor.py
 │   ├── app.py
 │   └── model.py
 ├── Deployment
-│   └── streamlit_web_app.md
+│   └── streamlit_web_app
+
+``` 
