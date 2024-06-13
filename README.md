@@ -61,7 +61,7 @@ Through extensive **exploratory data analysis (EDA)**, this project provides val
 
 ## Model Implementation and Results
 
-The project utilizes various **regression techniques** to model the bike demand data. Hyperparameters for **XGBoost** and **Random Forest** were meticulously tuned using **RandomSearchCV**, followed by **cross-validation** to rigorously evaluate their performance. This process optimized the evaluation metric, achieving an **R2 score** of **0.944** on the test data.
+The project utilizes various **regression techniques** to model the bike demand data. Hyperparameters for **XGBoost** and **Random Forest** were tuned using **RandomSearchCV**, followed by **cross-validation** to rigorously evaluate their performance. This process optimized the evaluation metric, achieving an **R2 score** of **0.944** on the test data.
 
 <p float="left">
   <img src="https://github.com/blazeAssault26/Pedal-Pulse/assets/129224378/55e079f4-4e39-4f8d-a097-6187ef7df938" width="49%" height="300" />
