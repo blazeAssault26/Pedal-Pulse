@@ -46,7 +46,7 @@ class Inference:
 
         u_input_list = [hour, temperature, humidity, wind_speed, visibility, solar_radiation, rainfall, snowfall, holiday_dic[holiday], functioning_day_dic[functioning_day], str_to_date["day"], str_to_date["month"], str_to_date["year"]]
 
-        # Ensure feature names are in lowercase to match the training data
+        
         features_name = ["Hour", 'Temperature(°C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Holiday', 'Functioning Day', 'day', 'month', 'year']
 
         df_u_input = pd.DataFrame([u_input_list], columns=features_name)
