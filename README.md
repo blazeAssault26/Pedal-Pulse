@@ -45,6 +45,8 @@
 │   ├── predictor.py
 │   ├── app.py
 │   └── model.py
+├── requirements.txt
+├── Dockerfile
 ├── Deployment
 │   └── streamlit_web_app
 
