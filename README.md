@@ -46,7 +46,7 @@
 │   ├── app.py
 │   └── model.py
 ├── requirements.txt
-├── Dockerfile
+├── Dockerfile (docker pull anmol26/pedalpulse)
 ├── Deployment
 │   └── streamlit_web_app
 
