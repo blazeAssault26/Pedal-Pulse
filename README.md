@@ -1,6 +1,6 @@
 # Project Overview
 
-**Pedal Pulse** is a **Streamlit** based web-app, accessible at [Pedal Pulse Web App](https://pedal-pulse.streamlit.app/), that aims to predict the bike rental demand through **predictive analytics** and **statistical modeling**.
+**Pedal Pulse** is a web-application, accessible at [Pedal Pulse Web App](https://pedal-pulse.streamlit.app/), that aims to predict the bike rental demand through **predictive analytics** and **statistical modeling**.
 
 ## Workflow
 
